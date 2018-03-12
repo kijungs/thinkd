@@ -1,11 +1,11 @@
 Think Before You Discard: Accurate Triangle Counting in Graph Streams with Deletions
 ========================
 
-**ThinkD (Think before you Discard)** is a streaming algorithm for triangle counting in a fully dynamic graph stream with edge additions and deletions. <br />
-**ThinkD** estimates the counts of global triangles and local triangles incident to each node by making a single pass over the stream. <br />
-**ThinkD** has the following advantages: <br />
- * *Accurate*: **ThinkD** is up to 4.3X em more accurate than its best competitors within the same memory budget <br />
- * *Fast*: **ThinkD** is up to 2.2X faster for the same accuracy requirements <br />
+**ThinkD (Think before you Discard)** is a streaming algorithm for triangle counting in a fully dynamic graph stream with edge additions and deletions.  
+**ThinkD** estimates the counts of global triangles and local triangles incident to each node by making a single pass over the stream.  
+**ThinkD** has the following advantages:  
+ * *Accurate*: **ThinkD** is up to 4.3X em more accurate than its best competitors within the same memory budget  
+ * *Fast*: **ThinkD** is up to 2.2X faster for the same accuracy requirements  
  * *Theoretically Sound*: **ThinkD** always maintains unbiased estimates.
 
 Datasets
