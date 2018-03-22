@@ -65,11 +65,17 @@ public class ThinkDFast implements ThinkD {
         processEdge(src, dst, false);
     }
 
-    private void processEdge(final int src, final int dst, final boolean add) {
+    private void processEdge(int src, int dst, final boolean add) {
 
         if(src == dst) { //ignore self loop
             return;
         }
+
+		if (src > dst) {
+			int temp = src;
+			src = dst;
+			dst = temp;
+		}
 
         count(src, dst, add);  //count the added or deleted triangles
 
