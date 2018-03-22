@@ -76,6 +76,12 @@ public class ThinkDAcc implements ThinkD {
             return;
         }
 
+		if (src > dst) {
+			int temp = src;
+			src = dst;
+			dst = temp;
+		}
+
         count(src, dst, add); //count the added or deleted triangles
 
         if(add) {
