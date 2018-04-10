@@ -12,7 +12,7 @@ Datasets
 ========================
 The download links for the datasets used in the paper are [here](http://www.cs.cmu.edu/~kijungs/thinkd/)
 
-Building and Running WRS
+Building and Running ThinkD
 ========================
 Please see [User Guide](user_guide.pdf)
 
