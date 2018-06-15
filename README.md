@@ -20,4 +20,15 @@ Running Demo
 ========================
 For demo, please type 'make'
 
-
+Reference
+========================
+If you use this code as part of any published research, please acknowledge the following paper.
+```
+@inproceedings{shin2018think,
+  author       = {Shin, Kijung and Kim, Jisu and Hooi, Bryan and Faloutsos, Christos},
+  title        = {Think Before You Discard: Accurate Triangle Counting in Graph Streams with Deletions},
+  booktitle    = {ECML/PKDD},
+  year         = {2018},
+  publisher    = {Springer}
+}
+```
