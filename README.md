@@ -1,4 +1,4 @@
-Think Before You Discard: Accurate Triangle Counting in Graph Streams with Deletions
+Think before You Discard: Accurate Triangle Counting in Graph Streams with Deletions
 ========================
 
 **ThinkD (Think before you Discard)** is a streaming algorithm for triangle counting in a fully dynamic graph stream with edge additions and deletions.  
@@ -26,7 +26,7 @@ If you use this code as part of any published research, please acknowledge the f
 ```
 @inproceedings{shin2018think,
   author       = {Shin, Kijung and Kim, Jisu and Hooi, Bryan and Faloutsos, Christos},
-  title        = {Think Before You Discard: Accurate Triangle Counting in Graph Streams with Deletions},
+  title        = {Think before You Discard: Accurate Triangle Counting in Graph Streams with Deletions},
   booktitle    = {ECML/PKDD},
   year         = {2018},
   publisher    = {Springer}

@@ -2,7 +2,7 @@ package thinkd;
 
 /**
  * =================================================================================
- * Think Before You Discard: Accurate Triangle Counting in Graph Streams with Deletions
+ * Think before You Discard: Accurate Triangle Counting in Graph Streams with Deletions
  * Authors: Kijung Shin, Jisu Kim, Bryan Hooi, and Christos Faloutsos
  *
  * Version: 1.0
