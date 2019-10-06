@@ -1,4 +1,4 @@
-WRS: Waiting Room Sampling for Accurate Triangle Counting in Real Graph Streams
+Think Before You Discard: Accurate Triangle Counting in Graph Streams with Deletions
 ========================
 
 **ThinkD** is a streaming algorithm for triangle counting in a fully dynamic graph stream with edge additions and deletions. 

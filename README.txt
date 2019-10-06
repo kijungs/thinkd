@@ -1,6 +1,6 @@
 =================================================================================
 
- Fast, Accurate and Provable Triangle Counting in Fully Dynamic Graph Streams
+ Think Before You Discard: Accurate Triangle Counting in Graph Streams with Deletions
  Authors: Kijung Shin, Sejoon Oh, Jisu Kim, Bryan Hooi, and Christos Faloutsos
 
  Version: 2.0
