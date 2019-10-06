@@ -1,11 +1,11 @@
 =================================================================================
 
- Think before You Discard: Accurate Triangle Counting in Graph Streams with Deletions
- Authors: Kijung Shin, Jisu Kim, Bryan Hooi, and Christos Faloutsos
+ Fast, Accurate and Provable Triangle Counting in Fully Dynamic Graph Streams
+ Authors: Kijung Shin, Sejoon Oh, Jisu Kim, Bryan Hooi, and Christos Faloutsos
 
  Version: 2.0
- Date: July 23, 2018
- Main Contact: Kijung Shin (kijungs@cs.cmu.edu)
+ Date: October 6, 2019
+ Main Contact: Kijung Shin (kijungs@kaist.ac.kr)
 
  This software is free of charge under research purposes.
  For commercial purposes, please contact the author.
