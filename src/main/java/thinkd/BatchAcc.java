@@ -11,7 +11,7 @@ package thinkd;
  *
  * This software is free of charge under research purposes.
  * For commercial purposes, please contact the author.
- =================================================================================
+ * =================================================================================
  */
 
 import java.io.IOException;

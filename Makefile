@@ -14,3 +14,6 @@ demo:
 	@echo [DEMO] running ThinkD Accurate Ver.
 	./run_acc.sh example_graph.txt output_acc 72000 3
 	@echo [DEMO] estimated global and local triangle counts are saved in output
+	@echo [DEMO] running ThinkD Accurate Ver.
+	./run_spot.sh example_graph_with_timestamps.txt output_spot 2000 86400 150
+	@echo [DEMO] estimated global and local triangle counts are saved in output

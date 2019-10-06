@@ -1,1 +1,2 @@
-611977.7777780379
+Estimated Global Triangle Count
+554322.2222225172

@@ -11,7 +11,7 @@ package thinkd;
  *
  * This software is free of charge under research purposes.
  * For commercial purposes, please contact the author.
- =================================================================================
+ * =================================================================================
  */
 
 import java.io.*;
@@ -77,17 +77,23 @@ class Common {
         }
 
         BufferedWriter bw = new BufferedWriter(new FileWriter(outputPath + "/global" + trialNum + ".txt"));
+        bw.write("Estimated Global Triangle Count");
+        bw.newLine();
         bw.write(String.valueOf(module.getGlobalTriangle()));
         bw.newLine();
         bw.close();
 
         bw = new BufferedWriter(new FileWriter(outputPath + "/local" + trialNum + ".txt"));
         Map<Integer, Double> localCounts = module.getLocalTriangle();
+        bw.write("Node Id"+"\t"+"Estimated Local Triangle Count");
+        bw.newLine();
         for(int node : localCounts.keySet()) {
             bw.write(node+"\t"+localCounts.get(node));
             bw.newLine();
         }
         bw.close();
+
+        System.out.println("done.");
 
     }
 

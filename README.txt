@@ -3,8 +3,8 @@
  Think before You Discard: Accurate Triangle Counting in Graph Streams with Deletions
  Authors: Kijung Shin, Jisu Kim, Bryan Hooi, and Christos Faloutsos
 
- Version: 1.0
- Date: March 12, 2018
+ Version: 2.0
+ Date: July 23, 2018
  Main Contact: Kijung Shin (kijungs@cs.cmu.edu)
 
  This software is free of charge under research purposes.

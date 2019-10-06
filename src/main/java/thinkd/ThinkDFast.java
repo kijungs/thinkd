@@ -11,7 +11,7 @@ package thinkd;
  *
  * This software is free of charge under research purposes.
  * For commercial purposes, please contact the author.
- =================================================================================
+ * =================================================================================
  */
 
 
@@ -26,7 +26,7 @@ import java.util.Random;
  *
  * @author kijungs (kijungs@cs.cmu.edu)
  */
-public class ThinkDFast implements ThinkD {
+public class ThinkDFast extends ThinkD {
 
     private Int2ObjectOpenHashMap<IntOpenHashSet> srcToDsts = new Int2ObjectOpenHashMap(); // graph composed of the sampled edges
     private Int2DoubleOpenHashMap nodeToTriangles = new Int2DoubleOpenHashMap(); // local triangle counts
@@ -47,7 +47,7 @@ public class ThinkDFast implements ThinkD {
         this(samplingRatio, seed, true);
     }
 
-    private ThinkDFast(final double samplingRatio, final int seed, final boolean lowerBound) {
+    public ThinkDFast(final double samplingRatio, final int seed, final boolean lowerBound) {
         random = new Random(seed);
         this.r = samplingRatio;
         this.inc = 1.0 / r / r;
@@ -145,7 +145,7 @@ public class ThinkDFast implements ThinkD {
     }
 
     /**
-     * counts triangles with the given edge and update estimates
+     * Counts triangles with the given edge and update estimates
      * @param src the source node of the given edge
      * @param dst the destination node of the given edge
      * @param add true for addition and false for deletion

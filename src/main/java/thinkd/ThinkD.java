@@ -11,7 +11,7 @@ package thinkd;
  *
  * This software is free of charge under research purposes.
  * For commercial purposes, please contact the author.
- =================================================================================
+ * =================================================================================
  */
 
 import it.unimi.dsi.fastutil.ints.Int2DoubleMap;
@@ -21,32 +21,32 @@ import it.unimi.dsi.fastutil.ints.Int2DoubleMap;
  *
  * @author kijungs (kijungs@cs.cmu.edu)
  */
-public interface ThinkD {
+public abstract class ThinkD {
 
     /**
      * Process the addition of an edge
      * @param src source node of the given edge
      * @param dst destination node of the given edge
      */
-    void processAddition(int src, int dst);
+    public abstract void processAddition(int src, int dst);
 
     /**
      * Process the deletion of an edge
      * @param src source node of the given edge
      * @param dst destination node of the given edge
      */
-    void processDeletion(int src, int dst);
+    public abstract void processDeletion(int src, int dst);
 
     /**
-     * get estimated global triangle count
+     * Get estimated global triangle count
      * @return estimate of global triangle count
      */
-    double getGlobalTriangle();
+    public abstract double getGlobalTriangle();
 
     /**
-     * get estimated local triangle counts
+     * Get estimated local triangle counts
      * @return map from nodes to counts
      */
-    Int2DoubleMap getLocalTriangle();
+    public abstract Int2DoubleMap getLocalTriangle();
 
 }

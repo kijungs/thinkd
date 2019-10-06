@@ -11,7 +11,7 @@ package thinkd;
  *
  * This software is free of charge under research purposes.
  * For commercial purposes, please contact the author.
- =================================================================================
+ * =================================================================================
  */
 
 import it.unimi.dsi.fastutil.ints.Int2DoubleOpenHashMap;
@@ -26,7 +26,7 @@ import java.util.Random;
  *
  * @author kijungs (kijungs@cs.cmu.edu)
  */
-public class ThinkDAcc implements ThinkD {
+public class ThinkDAcc extends ThinkD {
 
     private Int2ObjectOpenHashMap<IntOpenHashSet> srcToDsts = new Int2ObjectOpenHashMap(); // graph composed of the sampled edges
     private Int2DoubleOpenHashMap nodeToTriangles = new Int2DoubleOpenHashMap(); // local triangle counts
@@ -52,7 +52,7 @@ public class ThinkDAcc implements ThinkD {
         this(memoryBudget, seed, true);
     }
 
-    private ThinkDAcc(final int memoryBudget, final int seed, final boolean lowerBound) {
+    public ThinkDAcc(final int memoryBudget, final int seed, final boolean lowerBound) {
         random = new Random(seed);
         this.k = memoryBudget;
         samples = new int[2][this.k];
