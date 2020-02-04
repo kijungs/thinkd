@@ -27,7 +27,7 @@ import java.util.Queue;
 public class ThinkDSpot {
 
     /**
-     * size of the time window in seconds﻿ during which edges are maintained
+     * size of the time window in seconds during which edges are maintained
      */
     private int timeWindow;
 
@@ -48,7 +48,7 @@ public class ThinkDSpot {
 
     /**
      * @param memoryBudget maximum number of sampled edges
-     * @param timeWindow size of the time window in seconds﻿ during which edges are maintained
+     * @param timeWindow size of the time window in seconds during which edges are maintained
      * @param threshold threshold on the estimated count of global triangles
      * @param seed random seed
      */
