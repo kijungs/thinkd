@@ -35,13 +35,13 @@ If you use this code as part of any published research, please acknowledge the f
 ```
 ```
 @article{shin2020fast,
-  title={Fast, Accurate and Provable Triangle Counting in Fully Dynamic Graph Streams},
+  title={Fast, accurate and provable triangle counting in fully dynamic graph streams},
   author={Shin, Kijung and Oh, Sejoon and Kim, Jisu and Hooi, Bryan and Faloutsos, Christos},
   journal={ACM Transactions on Knowledge Discovery from Data (TKDD)},
-  volume={},
-  number={},
-  pages={},
-  year={},
-  publisher={ACM}
+  volume={14},
+  number={2},
+  pages={1--39},
+  year={2020},
+  publisher={ACM New York, NY, USA}
 }
 ```
